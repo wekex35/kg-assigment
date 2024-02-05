@@ -1,6 +1,6 @@
 const { fs, sequelize, databaseEmitter, readLine, Users, path } = require('./config');
 const {printProgress, printDataProgress} = require('./progress');
-const generateNestedObject = require('../utils/nested-object');
+const generateNestedObject = require('./nested-object');
 
 
 /**
